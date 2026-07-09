@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29858943/README.md)
-```text
 chronos-mem/
 ├── Cargo.toml                 # unchanged from Deliverable 9
 └── src/
@@ -16,7 +14,6 @@ chronos-mem/
             ├── run.rs         # capture / run workload
             ├── analyze.rs     # post-mortem rubric reports
             └── sessions.rs    # list/manage existing sessions
-```
 
 **Notes:**
 - The top-level `src/` modules all exist as files now, with `rubric.rs` and `voxel.rs` containing the first-commit implementation.
