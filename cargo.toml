@@ -1,0 +1,21 @@
+[package]
+name = "chronos-mem"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+# Storage
+rocksdb = "0.21"
+# Memory Management
+memmap2 = "0.7"
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.3"
+# Zero-copy casting for memory buffers
+bytemuck = { version = "1.13", features = ["derive"] }
+# CLI Framework
+clap = { version = "4.3", features = ["derive"] }
+# Parallel Execution
+rayon = "1.7"
+# Unique IDs
+uuid = { version = "1.3", features = ["v4"] }
